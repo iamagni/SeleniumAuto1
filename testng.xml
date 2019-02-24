@@ -4,14 +4,14 @@
   <test thread-count="5" name="Test1">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="Script.SetUpBro"/>
+      <class name="SetUp.SetUpBro"/>
     </classes>
   </test> <!-- Test -->
   
     <test thread-count="5" name="Test2">
   <parameter name="browser" value="IE"></parameter>
     <classes>
-      <class name="Script.SetUpBro"/>
+      <class name="SetUp.SetUpBro"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
