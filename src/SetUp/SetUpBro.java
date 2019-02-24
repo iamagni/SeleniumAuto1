@@ -32,5 +32,11 @@ protected	static WebDriver driver;
 		  
 	  
   }
+  
+  @Test
+  public void hi()
+  {
+	  System.out.println("hii");
+  }
 
 }
