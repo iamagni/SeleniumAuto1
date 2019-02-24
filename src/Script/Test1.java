@@ -18,6 +18,7 @@ public class Test1 extends SetUpBro{
 		  driver.get("https://www.edureka.co/blog/object-oriented-programming/?SSAID=1238556");
 		  driver.manage().window().maximize();
 		  System.out.println(user+last);
+		  System.out.println("Hiiii");
 	  }
 	  
 	  @Test(priority=2,description="Navigate to selected Topic")
